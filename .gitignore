@@ -1,0 +1,43 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.egg-info/
+*.egg
+build/
+dist/
+wheels/
+*.whl
+
+# --- Virtual environments ---
+.venv/
+venv/
+env/
+
+# --- uv ---
+uv.lock
+
+# --- IDE / Editor ---
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# --- OS ---
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# --- Secrets ---
+.env
+!.env.example
+
+# --- Generated / Runtime data ---
+data/faiss_db/
+data/output/
+
+# --- Logs ---
+*.log
+
+# --- Jupyter ---
+.ipynb_checkpoints/
